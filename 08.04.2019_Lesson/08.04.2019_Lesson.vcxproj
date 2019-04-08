@@ -117,10 +117,12 @@
   <ItemGroup>
     <ClInclude Include="Point.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
